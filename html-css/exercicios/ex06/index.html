@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="sword-favicon.ico" type="image/x-icon">
+    <title>Citação e Códigos</title>
+</head>
+<body>
+    <h1>Formatações extras</h1>
+        <h2>Código-fonte e Pré-formatação</h2>
+        <p>Utilizamos &lt;code&gt; quando precisamos colocar um código em um paragrafo, como: <code>document.getElementById('teste').</code></p>
+        <p>Também é possível envelopar a tag &lt;code&gt; com a tag &lt;pre&gt;, para adicionar indentação (manter a forma). Exemplo:</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+        <p>A tag &lt;pre&gt; mantém a forma do texto igual no código e visualmente no site.</p>
+
+        <h2>Citações</h2>
+        <p>Caso precisamos citar algo no texto, utilizamos a tag &lt;q&gt;.</p>
+        <p><q>O ignorante afirma, o sábio duvida, o sensato reflete.</q></p>
+        <p>Também podemos usar a citação em blocos:</p>
+        <blockquote cite="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime corporis cumque laboriosam! Iusto eum voluptates ducimus maxime, quisquam atque, delectus, labore commodi vel facilis 
+            doloribus! Placeat consectetur dolor iure accusantium.
+            Lorem ipsum dolor sit amet consectetur adipisicing e
+        </blockquote>
+        <p>o comando &lt;blockquote&gt; permite adicionar a citação em bloco, dentro da tag podemos adicionar o parametro (cite=""), que permite você dar o endereço do livro ou site que você está citando.</p>
+        <h2>Abreviando</h2>
+        <p>Podemos abreviar utilizando a tag &lt;abbr&gt;</p>
+        <p>Por exemplo, <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, <abbr title="Brasil">BR</abbr>.</p>  
+</body>
+</html>
